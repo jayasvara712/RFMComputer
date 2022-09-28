@@ -23,7 +23,7 @@ class DashboardControllers extends Controller
     {
         return view('dashboard', [
             'title' => 'Dashboard',
-            'user'  => User::count(),
+            'user'  => User::where('role', 'admin')->count(),
             'satuan'    => Satuan::count(),
             'jenis'     => Jenis::count(),
             'barang'    => Barang::count(),
