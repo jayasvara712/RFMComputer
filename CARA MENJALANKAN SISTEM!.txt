@@ -1,0 +1,13 @@
+1. buka terminal / git bash
+2. masuk ke direktori file laravel
+3. ketikan composer update pada terminal
+4. copy file .env.example dan rename menjadi .env
+5. ubah nama database di DB_DATABASE =
+6. ketikan php artisan key:generate pada terminal
+7. masuk ke direktori public
+8. ketikan git clone https://github.com/stisla/stisla.git pada terminal
+9. jika sudah selesai proses download / clone maka ketikan cd stisla untuk masuk ke dalam direktori stisla
+10. ketikan yarn pada terminal
+11. jika sudah selesai lalu ketikan php artisan migrate pada terminal untuk membuat tabel secara otomatis
+12. setelah selesai ketikan php artisan db:seed UserSeeder pada terminal untuk menerapkan data user 
+13. untuk menjalankan server ketikan php artisan serve
