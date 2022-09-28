@@ -34,7 +34,7 @@ class BarangMasukControllers extends Controller
 
         return view('admin.barang_masuk.create', [
             'title' => 'Barang Masuk',
-            'barang' => Barang::all()
+            'barang' => Barang::all()->sortBy('nama_barang')
         ]);
     }
 
