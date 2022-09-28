@@ -159,7 +159,7 @@ function total_barang_masuk() {
     let x = parseInt(document.getElementById("jumlah_stok").value);
     let y = parseInt(document.getElementById("jumlah_masuk").value);
     let total = '';
-    if (y<0) {
+    if (y<1) {
         document.getElementById("jumlah_masuk").value = 1;
         swal({
             text: "Jumlah Stok Masuk Tidak Sesuai!  ",
