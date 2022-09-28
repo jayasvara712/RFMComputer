@@ -8,7 +8,7 @@
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="/stisla/node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/stisla/node_modules/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/vendor/font-awesome/css/all.min.css">
 
   <!-- CSS Libraries -->
   <link rel="stylesheet" href="/stisla/node_modules/select2/dist/css/select2.min.css">
